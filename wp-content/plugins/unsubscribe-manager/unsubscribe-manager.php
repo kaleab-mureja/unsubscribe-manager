@@ -38,8 +38,6 @@ register_activation_hook( __FILE__, 'mindplex_create_db_table' );
 
 /* --- Enqueue external CSS file with conditional loading --- */
 function mindplex_enqueue_styles() {
-    // Check if on the front-end page with the unsubscribe form or admin tool
-    // Change '9' and '11' to your specific page IDs
     if ( is_page(9) || is_page(11) ) { 
         wp_enqueue_style( 'mindplex-styles', plugins_url( 'mindplex-styles.css', __FILE__ ) );
     }
