@@ -1,0 +1,131 @@
+/* mindplex-styles.css */
+
+/* --- Unsubscribe Form Page Styles --- */
+.mindplex-wrapper {
+    background-color: #f7f7f7;
+    padding: 40px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.mindplex-form-card {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.mindplex-header {
+    background-color: #0073aa;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+.mindplex-content {
+    padding: 30px;
+}
+.mindplex-form-card h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+.mindplex-form-card p {
+    margin-bottom: 20px;
+    color: #666;
+    line-height: 1.6;
+}
+.mindplex-form-card label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.4;
+}
+.mindplex-form-card input[type="checkbox"] {
+    margin-right: 10px;
+}
+.mindplex-form-card button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.mindplex-form-card button:hover {
+    background-color: #005680;
+}
+
+/* --- Admin Tool Page Styles --- */
+.admin-form-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    color: #333;
+}
+.admin-form-container h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #0073aa;
+    text-align: center;
+}
+.admin-form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.admin-form-container input[type="email"],
+.admin-form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.admin-form-container input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #0073aa;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.admin-form-container input[type="submit"]:hover {
+    background-color: #005680;
+}
+.admin-form-container .success-message,
+.admin-form-container .error-message,
+.admin-form-container .warning-message {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.admin-form-container .success-message {
+    background-color: #d4edda;
+    color: #155724;
+}
+.admin-form-container .error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+.admin-form-container .warning-message {
+    background-color: #fff3cd;
+    color: #856404;
+}
